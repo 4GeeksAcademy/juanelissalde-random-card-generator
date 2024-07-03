@@ -1,1 +1,38 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100dvh;
+  width: 100dvw;
+  background: #f5f4f6;
+}
+
+.card {
+  box-shadow: 0px 1px 8px #0000007a;
+  height: 10cm;
+  width: 7cm;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.card-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-footer {
+  transform: rotate(180deg);
+}
+
+.red {
+  color: red;
+}
